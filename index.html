@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Vitalemar| Cuidado Completo para Você</title>
+    <style>
+        :root {
+            --cor-primaria: #2a739d;
+            --cor-secundaria: #264653;
+            --cor-detalhe: #e9c46a;
+            --cor-fundo-leve: #f4f1de;
+            --cor-texto: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: var(--cor-texto);
+            background-color: #fff;
+        }
+
+        header {
+            background-color: var(--cor-secundaria);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .container-principal {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        h2 { color: var(--cor-primaria); border-bottom: 2px solid var(--cor-primaria); padding-bottom: 10px; margin-top: 40px; }
+
+        /*Serviços */
+        .grade-servicos {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .cartao-servico {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .cartao-servico:hover { transform: translateY(-5px); }
+
+        .cartao-servico img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .cartao-servico .conteudo-servico { padding: 15px; }
+
+        /*Equipe */
+        .grade-equipe {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .membro-equipe {
+            text-align: center;
+            width: 250px;
+            margin-bottom: 20px;
+        }
+
+        .membro-equipe img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid var(--cor-primaria);
+            object-fit: cover;
+        }
+
+        /*Formulário */
+        .formulario-contato {
+            background: var(--cor-fundo-leve);
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .grupo-campo { margin-bottom: 15px; }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .botao-enviar {
+            background-color: var(--cor-primaria);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            width: 100%;
+            font-weight: bold;
+        }
+
+        .botao-enviar:hover { background-color: #21867a; }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: var(--cor-secundaria);
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Clínica Vitalemar</h1>
+        <p>Inovação e cuidado humano para sua saúde.</p>
+    </header>
+
+    <div class="container-principal">
+        
+    <h2>Nossas Especialidades</h2>
+    <div class="grade-servicos">
+        <div class="cartao-servico">
+            <img src="https://digem.com.br/wp-content/uploads/2024/01/exames-de-imagem-check-up.jpg.webp" alt="Consulta Médica">
+            <div class="conteudo-servico">
+                <h3>Atendimento Médico</h3>
+                <p>Consultas com especialistas qualificados e foco na prevenção de doenças em diversas áreas da medicina.</p>
+            </div>
+        </div>
+
+        <div class="cartao-servico">
+            <img src="https://www.diagnosticosdobrasil.com.br/uploads/images/2025/08/exames-laboratoriais-tudo-o-que-voce-precisa-saber-1754006893.jpg" alt="Laboratório">
+            <div class="conteudo-servico">
+                <h3>Exames e Diagnósticos</h3>
+                <p>Tecnologia avançada para diagnósticos precisos, exames de imagem e análises laboratoriais ágeis.</p>
+            </div>
+        </div>
+
+        <div class="cartao-servico">
+            <img src="https://images.ecycle.com.br/wp-content/uploads/2022/10/13150727/51138312872_19796786a8_o-scaled.jpg.webp" alt="Nutrição">
+            <div class="conteudo-servico">
+                <h3>Aconselhamento Nutricional</h3>
+                <p>Planos alimentares personalizados para melhorar sua performance, saúde e bem-estar geral.</p>
+            </div>
+        </div>
+
+        <div class="cartao-servico">
+            <img src="https://agenciapara.com.br/midias/2025/grandes/20251104121632-GC00072164-F00271752.webp" alt="Cuidados de Saúde">
+            <div class="conteudo-servico">
+                <h3>Cuidados e Procedimentos</h3>
+                <p>Pequenas cirurgias, curativos especializados e cuidados continuados com foco na sua recuperação.</p>
+            </div>
+        </div>
+    </div>
+
+        <h2>Conheça Nossa Equipe</h2>
+        <div class="grade-equipe">
+            <div class="membro-equipe">
+                <img src="https://www.maniadesaude.com.br/wp-content/uploads/2023/03/Medica-e1680195622199.jpg" alt="Dra. Paula">
+                <h3>Dra. Paula Mendes</h3>
+                <p><strong>Clínica Geral</strong></p>
+            </div>
+            <div class="membro-equipe">
+                <img src="https://thumbs.dreamstime.com/b/jovem-m%C3%A9dico-hospital-medicina-cl%C3%ADnica-%C3%B3culos-de-retrato-do-escrit%C3%B3rio-homem-especialista-em-estetosc%C3%B3pio-um-no-seu-num-269615308.jpg?w=576" alt="Dr. Marcos">
+                <h3>Dr. Marcos Vinícius</h3>
+                <p><strong>Nutrologia</strong></p>
+            </div>
+            <div class="membro-equipe">
+                <img src="https://thumbs.dreamstime.com/b/m%C3%A9dica-loira-est%C3%A1-em-seu-local-de-trabalho-perto-do-desktop-uma-cl%C3%ADnica-ensolarada-as-mulheres-m%C3%A9dicas-est%C3%A3o-excitadas-e-223273253.jpg?w=992" alt="Dra. Aline">
+                <h3>Dra. Aline Souza</h3>
+                <p><strong>Radiologia</strong></p>
+            </div>
+        </div>
+
+        <h2>Entre em Contato</h2>
+        <p>Utilize o formulário abaixo para solicitar informações sobre agendamentos.</p>
+        
+        <form class="formulario-contato">
+            <div class="grupo-campo">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="email">E-mail de Contato:</label>
+                <input type="email" id="email" name="email" placeholder="email@exemplo.com.br" required>
+            </div>
+
+            <div style="display: flex; gap: 10px;">
+                <div class="grupo-campo" style="flex: 2;">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade" required>
+                </div>
+                <div class="grupo-campo" style="flex: 1;">
+                    <label for="estado">Estado:</label>
+                    <select id="estado" name="estado" required>
+                        <option value="">Selecione</option>
+                        <option value="SP">SP</option>
+                        <option value="RJ">RJ</option>
+                        <option value="MG">MG</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                </div>
+            </div>
+
+            <button type="button" class="botao-enviar" onclick="alert('Mensagem enviada com sucesso!')">Enviar Solicitação</button>
+        </form>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Clínica Vitalemar - Modernidade em Saúde. Ana Júlia Alemar</p>
+    </footer>
+
+</body>
+</html>
