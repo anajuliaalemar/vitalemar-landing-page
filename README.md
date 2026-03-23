@@ -1,28 +1,42 @@
-# 🏥 Vitalemar - Soluções em Saúde
+# 🏥 Vitalemar - Clínica de Saúde
 
-Este projeto consiste numa **Landing Page Estática** desenvolvida para a clínica de saúde **Vitalemar**. O trabalho foi realizado como parte prática da disciplina de **Programação e Desenvolvimento Web**, com o objetivo de modernizar a presença digital da clínica e melhorar a experiência de navegação dos pacientes.
+> **Projeto prático desenvolvido para a disciplina de Programação e Desenvolvimento Web (CEUB).**
+
+Este projeto faz parte do módulo de modernização tecnológica da **Clínica Vitalemar**, focando na criação de uma interface de alto impacto, acessível e totalmente responsiva para pacientes que buscam cuidados médicos integrados.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-- **HTML5:** Estruturação semântica de conteúdo.
-- **CSS3:** Estilização personalizada utilizando:
-  - **CSS Variables:** Para gestão de cores e identidade visual.
-  - **Flexbox & Grid:** Para layouts dinâmicos e alinhamentos precisos.
-  - **Design Responsivo:** Adaptável a diferentes tamanhos de ecrã.
+## 🚀 **Tecnologias Utilizadas**
 
-## 📋 Requisitos Implementados
-Conforme as diretrizes do projeto, a solução inclui:
-- [x] **Título Personalizado:** Identificação da clínica no separador do navegador.
-- [x] **Catálogo de Serviços:** 4 especialidades (Atendimento, Exames, Nutrição e Cuidados) com descrições e imagens.
-- [x] **Equipa Especializada:** Secção com 3 membros fictícios contendo foto, nome e cargo.
-- [x] **Hierarquia Visual:** Uso de pelo menos 2 níveis de cabeçalhos (H1 e H2).
-- [x] **Formulário de Contacto:** Campos de Nome, E-mail, Cidade e Estado (estático).
+<div align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/Design_Responsivo-2a9d8f?style=for-the-badge&logo=googlechrome&logoColor=white">
+</div>
 
-## 📸 Demonstração da Interface
-A página foca na clareza das informações, utilizando tons de verde e azul (Vitalidade) para transmitir confiança e higiene, características essenciais para o setor da saúde.
+---
 
-## 💻 Como Executar o Projeto
-1. Faça o clone deste repositório:
-   ```bash
-   git clone [https://github.com/SEU_USUARIO/vitalemar-landing-page.git](https://github.com/SEU_USUARIO/vitalemar-landing-page.git)
+## 🛠️ **Soluções Implementadas**
+
+O projeto **Vitalemar** foi estruturado para atender aos novos requisitos de gestão da clínica, focando em:
+
+* **🏷️ Identidade Visual:** Uso de uma paleta de cores que transmite saúde e confiança (Azul Marinho e Azul Petróleo).
+* **🧪 Catálogo de Especialidades:** Grade de serviços incluindo Atendimento Médico, Exames, Nutrição e Procedimentos.
+* **👥 Equipe Médica:** Seção dedicada aos profissionais com cargos e apresentações.
+* **📬 Captação de Leads:** Formulário de contato estruturado com validações básicas de campos (Nome, E-mail, Cidade e Estado).
+
+---
+
+## ⚡ **Como visualizar**
+
+Por ser uma solução de Front-End estática, a execução é imediata:
+
+1.  **Clone** este repositório.
+2.  Abra o arquivo `index.html` no seu navegador (Chrome, Firefox ou Edge).
+3.  Explore a seção de agendamentos e a galeria de serviços.
+
+---
+
+<p align="center">
+  Desenvolvido com 💜 por Ana Júlia Alemar
+</p>
