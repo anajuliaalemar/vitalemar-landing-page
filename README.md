@@ -16,6 +16,18 @@ Este projeto faz parte do módulo de modernização tecnológica da **Clínica V
 
 ---
 
+## 🌐 **Acesse o Projeto Online**
+
+Clique no botão abaixo para visualizar a clínica em funcionamento:
+
+<div align="center">
+  <a href="https://clinicadesaude-vitalemar.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Visualizar_Clínica_Online-00ADBB?style=for-the-badge&logo=netlify&logoColor=white">
+  </a>
+</div>
+
+---
+
 ## 🛠️ **Soluções Implementadas**
 
 O projeto **Vitalemar** foi estruturado para atender aos novos requisitos de gestão da clínica, focando em:
@@ -27,7 +39,7 @@ O projeto **Vitalemar** foi estruturado para atender aos novos requisitos de ges
 
 ---
 
-## ⚡ **Como visualizar**
+## ⚡ **Como visualizar localmente**
 
 Por ser uma solução de Front-End estática, a execução é imediata:
 
